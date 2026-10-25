@@ -1,0 +1,4 @@
+external-checks-dir:
+  - ./checkov-checks
+
+
