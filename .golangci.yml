@@ -1,0 +1,9 @@
+linters:
+  enable:
+    - mylinter
+linters-settings:
+  custom:
+    - name: mylinter
+      type: module
+      settings:
+        path: example.com/mylinter
