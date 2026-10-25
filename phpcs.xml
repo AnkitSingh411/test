@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ruleset name="TestProject">
+  <description>Sample PHPCS configuration (test fixture).</description>
+  <rule ref="./CustomStandard"/>
+</ruleset>
