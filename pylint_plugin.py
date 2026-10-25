@@ -7,10 +7,3 @@ except Exception:
 
 def register(linter):
     pass
-
-
-
-
-
-
-
