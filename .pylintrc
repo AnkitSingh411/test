@@ -1,4 +1,2 @@
 [MASTER]
 load-plugins=pylint_plugin
-
-
